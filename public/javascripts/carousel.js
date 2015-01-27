@@ -130,7 +130,7 @@
 							].join(''),
 						nextprev = {
 							nextSlide : '.' + opt.namespace + '-next',
-							prevSlide : '.' + opt.namespace + '-prev'
+							prevSlide : '.' + opt.namespace + '-prev'	
 						};
 
 					opt = $.extend(opt, nextprev);

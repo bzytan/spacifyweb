@@ -75,17 +75,17 @@
 	top: 95%;
 	width: 40px;
 	height: 40px;
-	border: 8px solid #ddd;
-	border: 8px solid rgba(150,150,150,0.4);
-	text-indent: -90000px;
+	/*border: 8px solid #ddd;
+	border: 8px solid rgba(150,150,150,0.4);*/
+	text-indent: 0px;
 	margin-top: -40px;
 	cursor: pointer;
-	
+	/*
 	-webkit-transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
-	transform: rotate(45deg);
+	transform: rotate(45deg);*/
 }
 
 .nav-arrows span:hover {
@@ -102,6 +102,7 @@
 	right: 5%;
 	border-left: 0px;
 	border-bottom: none;
+	font-size: 20px;
 }
 
 /* Custom navigation dots */
@@ -259,6 +260,22 @@
 	font-style: normal;
 	text-transform: uppercase;
 	letter-spacing: 4px;
+}
+
+.demo-1 .sl-slide .actions {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	height: 70px;
+	color: #8b8b8b;
+	z-index: 2;
+	bottom: 5%;
+	margin: 0 0 -30px 0;
+	padding: 0;
 }
 
 /* Custom background colors for slides in first demo */
