@@ -278,6 +278,10 @@
 	padding: 0;
 }
 
+.demo-1 .sl-slide .actions .btn{
+	margin-left: 10px
+}
+
 /* Custom background colors for slides in first demo */
 
 /* First Slide */
