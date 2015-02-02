@@ -2165,7 +2165,7 @@ footer #social {
 }
 
 .btn {
-	border: none;
+	/* border: none; */
 	background: #fbfbf9;
 	color: #222222 !important;
 	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.35), inset 0px 2px 3px #fff;
